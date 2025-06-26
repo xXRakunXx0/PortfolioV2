@@ -94,6 +94,9 @@
 .justify-center{
     justify-content: center;
 }
+.text-align{
+  text-align: center;
+}
 .align-center{
     align-items: center;
 }
