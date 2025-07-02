@@ -4,7 +4,7 @@ header{
     position:sticky;
     top:0;
     z-index: 999;
-    background-color: rgb(32, 32, 250);
+    background-color: rgb(2, 2, 216);
     box-shadow: 0px 10px 0px rgba(0, 0, 0, 0.904);
 }
 header nav{
@@ -12,7 +12,7 @@ header nav{
     gap: 16px;
 }
 header nav a{
-    color: var(--black);
+    color: white;
     transition: color .33s ease;
 }
 header a:hover{
@@ -22,9 +22,27 @@ header a:hover{
 
 /* Hero */
 .hero {
-    background-color: #5383f3;
+    background-color: #8aabfa;
+    width: 100%;
+    height: 100%;
 }
 
 .para1 {
     width: 70%;
+    margin-top: 20px;
+}
+
+
+/* Rakun Gif */
+.menu{
+  position: sticky;
+  top: 128px;
+}
+
+
+/* Carte de mes projet */
+
+.CarteProjet{
+    border: solid 3px black;
+    background-image: url(assets/interno.png);
 }

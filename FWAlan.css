@@ -225,16 +225,16 @@ body{
  h1{
     color: white;
     font-size: 100px;
+    font-family: "Jersey 25", sans-serif;
  }
 
  h2{
-    color: rgb(105, 86, 65);
     font-size: 40px;
+    font-family: "Jersey 25", sans-serif;
  }
 
  h3{
-    color: rgba(82, 59, 33);
-    font-family: "Playwrite DK Loopet", cursive;
+    font-family: "Jersey 25", sans-serif;
     font-size: 20px;
  }
 
