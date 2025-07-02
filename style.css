@@ -1,6 +1,7 @@
 
 /*import des icons*/
 @import '@material-design-icons/font';
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
 
 /*import des Typographies*/
 @font-face {
@@ -9,6 +10,13 @@
   font-weight: normal;
   font-style: normal;
 }
+
+.jersey-25-regular {
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 /* Reset */
 *{
@@ -317,7 +325,6 @@ a{
 ---------------------------------------------------*/
 
 header{
-    background-color: var(--secondary);
     padding: 16px 64px;
     position:sticky;
     top:0;
@@ -416,4 +423,25 @@ header a:hover{
 ---------------------------------------------------*/
 .bg-grey{
     background-color: var(--light-grey);
+}
+
+
+/*---------------------------------------------------
+                          Color
+----------------------------------------------------- */
+
+.fondGrey{
+  background-color: rgb(198, 198, 198);
+}
+
+/*----------------------------------------------------
+Tout les h et p et a
+------------------------------------------------------ */
+
+a{
+  font-family: "Jersey 25", sans-serif;
+}
+
+.bgRed{
+  background-color: red;
 }

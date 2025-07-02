@@ -1,0 +1,368 @@
+
+/*import des icons*/
+@import '@material-design-icons/font';
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
+
+/*import des Typographies*/
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/Montserrat/Montserrat-VariableFont_wght.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.jersey-25-regular {
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* Réinitialise le box model pour tous les éléments, 
+   et supprime les marges et paddings par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color:rgb(255, 250, 244);
+}
+/* Background color */
+
+.bgcRed {
+    background-color: red;
+}
+
+/* ------ Flex ------ */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+
+}
+
+.spaceAround {
+    justify-content: space-around;
+}
+
+.spaceEvenly {
+    justify-content: space-evenly;
+}
+
+.flexStart {
+    justify-content: flex-start;
+}
+
+.flexEnd {
+    justify-content: flex-end;
+}
+
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /*vous pouvez enlever le padding si il vous gene*/
+    padding: 16px;
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.TextRight{
+    text-align: right;
+}
+
+
+
+/* MARGIN/PADDING */
+
+
+.marginAuto{
+    margin: auto;
+}
+
+
+.marginRight{
+    margin-right: 50px;
+}
+
+.marginLeft{
+    margin-left: 12px;
+}
+
+.marginLeft50{
+    margin-left: 100px;
+}
+
+.marginBottom{
+    margin-top: 10px;
+}
+
+.top10{
+    margin-top: 10px;
+}
+
+.top20 {
+    margin-top: 20px;
+}
+
+.top60 {
+    margin-top: 60px;
+}
+
+.top40{
+    margin-top: 40px;
+}
+
+.top100 {
+    margin-top: 100px;
+
+}
+
+.ptb64 {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.padding5 {
+    padding: 5px;
+}
+
+.paddingTop{
+    padding-top: 10px;
+}
+
+.padding20 {
+    padding: 20px;
+}
+
+.padding2 {
+    padding: 2px;
+}
+
+/* WIDTH */
+
+.w5{
+    width: 5%;
+}
+
+.w10{
+    width: 10%;
+}
+
+.w15{
+    width: 15%;
+}
+
+.w20 {
+    width: 20%;
+}
+
+.w25 {
+    width: 25%;
+}
+
+.w30 {
+    width: 30%;
+}
+
+.w40 {
+    width: 40%;
+}
+
+.w45 {
+    width: 45%;
+}
+
+.w48 {
+    width: 48%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.w60 {
+    width: 60%;
+}
+
+.w70 {
+    width: 70%;
+}
+
+.w80{
+    width: 80%;
+}
+
+.w100 {
+    width: 100%;
+}
+
+/* Gap */
+.gap12{
+    gap: 12px;
+}
+
+.gap28{
+    gap: 28px;
+}
+
+/* Tout Les H1,2,3,4 And P*/
+
+ h1{
+    color: white;
+    font-size: 100px;
+ }
+
+ h2{
+    color: rgb(105, 86, 65);
+    font-size: 40px;
+ }
+
+ h3{
+    color: rgba(82, 59, 33);
+    font-family: "Playwrite DK Loopet", cursive;
+    font-size: 20px;
+ }
+
+ .para1{
+    font-size: 20px;
+ }
+
+  .para2{
+    font-size: 13px;
+ }
+
+
+ /* Header */
+
+ .header{
+    background-color:  rgba(105, 77, 44, 0.804);
+    padding: 2px;
+    position: fixed;
+    width: 100%;
+    backdrop-filter: blur(8px);
+    z-index: 3;
+ }
+
+ .paraHeader{
+    color: white;
+ }
+
+ .logoColor{
+    filter:brightness(5) grayscale(1)
+ }
+
+ .coleurHeader{
+    color: white;
+ }
+
+/* Section Acceuil */
+.hero{
+    background-image: url(asset/chocola.jpg);
+     height: 87vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+}
+
+.btm{
+    background-color: rgb(198, 125, 207);
+    width: 30%;
+    padding: 10px;
+    border-radius: 40px;
+    color: rgb(82, 59, 33);
+    font-size: 20px;
+    display: block;
+    font-family: "Playwrite DK Loopet", cursive;
+}
+
+/* Section Nos Produits */
+
+.BandeMarront{ 
+    background-color: rgba(211, 184, 168, 0.479);
+    padding: 50px;
+}
+
+.carte{
+    background-color: white;
+    border-radius: 15px;    
+    padding: 12px;
+    width: 30%;
+    object-fit:cover;
+    box-shadow: 0px 0px 15px gray;
+}
+
+.imgCarte{
+    border-radius: 15px;
+}
+
+.btmAcheter{
+    background-color: rgb(198, 125, 207);
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 30px;
+    color: rgb(82, 59, 33);
+    display: inline-block;
+    font-family: "Playwrite DK Loopet", cursive;
+}
+
+/* Section Benefice */
+
+.carteBene{
+    background-color: white;
+    border-radius: 15px;    
+    padding: 40px;
+    width: 23%;
+    object-fit:cover;
+    box-shadow: 0px 0px 15px gray;
+}
+
+
+.imgBene{
+    height: 150px;
+    object-fit:cover;
+    border-radius: 10px;
+}
+
+/* Section Avis Client */
+
+.carteAvisClient{
+    background-color: white;
+    border-radius: 15px;    
+    padding: 12px;
+    width: 30%;
+    object-fit:cover;
+    box-shadow: 0px 0px 15px gray;
+}
+.note{
+    color:rgb(126, 109, 11);
+    font-size: 18px;
+}
+.type{
+    font-size: 14px;
+    color: #666;
+}
+.commentaire{
+    margin-top: 16px;
+
+}
+
+/* Footer */
+.box{
+    width: 31%;
+    display: inline-block;
+}
